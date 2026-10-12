@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 3D Bottom Extrusion Ledge -->
+    <item android:top="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#060913" />
+            <corners android:radius="28dp" />
+            <stroke
+                android:width="1.5dp"
+                android:color="#312E81" />
+        </shape>
+    </item>
+    <!-- Main 3D Stage Body -->
+    <item android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="@color/orb_card_top"
+                android:endColor="@color/orb_card_bottom"
+                android:type="linear" />
+            <corners android:radius="28dp" />
+            <stroke
+                android:width="1.5dp"
+                android:color="@color/orb_card_border" />
+        </shape>
+    </item>
+</layer-list>

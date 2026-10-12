@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ambient_shadow">#99000000</color>
+    <color name="bg_bottom">#13112C</color>
+    <color name="bg_center">#0F172A</color>
+    <color name="bg_top">#090D16</color>
+    <color name="brand">#6366F1</color>
+    <color name="brand_accent">#22D3EE</color>
+    <color name="brand_soft">#1E1B4B</color>
+    <color name="brand_vivid">#A855F7</color>
+    <color name="btn_start_bottom">#4338CA</color>
+    <color name="btn_start_ledge">#1E1B4B</color>
+    <color name="btn_start_top">#6366F1</color>
+    <color name="btn_stop_bottom">#BE123C</color>
+    <color name="btn_stop_ledge">#4C0519</color>
+    <color name="btn_stop_top">#F43F5E</color>
+    <color name="card_border_highlight">#38BDF8</color>
+    <color name="card_border_subtle">#334155</color>
+    <color name="card_shadow_ledge">#020617</color>
+    <color name="card_surface_bottom">#0F172A</color>
+    <color name="card_surface_top">#1E293B</color>
+    <color name="icon_bg">#0F1B3D</color>
+    <color name="mode_selected_border">#38BDF8</color>
+    <color name="mode_selected_bottom">#15133B</color>
+    <color name="mode_selected_top">#25215E</color>
+    <color name="mode_unselected_border">#334155</color>
+    <color name="mode_unselected_bottom">#111827</color>
+    <color name="mode_unselected_top">#1E293B</color>
+    <color name="orb_card_border">#4F46E5</color>
+    <color name="orb_card_bottom">#090D1A</color>
+    <color name="orb_card_top">#161E35</color>
+    <color name="spot_shadow">#806366F1</color>
+    <color name="status_active">#22D3EE</color>
+    <color name="status_error">#FB7185</color>
+    <color name="status_ready">#34D399</color>
+    <color name="text_muted">#64748B</color>
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="transcript_in_border">#334155</color>
+    <color name="transcript_in_bottom">#0D1322</color>
+    <color name="transcript_in_top">#172033</color>
+    <color name="transcript_out_border">#6366F1</color>
+    <color name="transcript_out_bottom">#11102E</color>
+    <color name="transcript_out_top">#1E1B4B</color>
+    <color name="white">#FFFFFF</color>
+    <style name="Theme.LiveTranslate" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_soft</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="android:statusBarColor">@color/bg_top</item>
+        <item name="android:navigationBarColor">@color/bg_bottom</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_clear_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_clear_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_card_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_card_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_status_pill_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_status_pill_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_icon_badge_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_icon_badge_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/layout_activity_main.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_stop_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_stop_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_orb_stage_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_orb_stage_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_transcript_in_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_transcript_in_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_copy_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_copy_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_pause_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_pause_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_screen_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_screen_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_transcript_out_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_transcript_out_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_mode_unselected_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_mode_unselected_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_bg_mode_selected_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/bg_mode_selected_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_system_audio_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_system_audio_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_settings_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_settings_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_play_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_play_3d.xml"
+    },
+    {
+        "merged": "com.example.livetranslate.app-debug-34:/drawable_ic_mic_3d.xml.flat",
+        "source": "com.example.livetranslate.app-main-36:/drawable/ic_mic_3d.xml"
+    }
+]

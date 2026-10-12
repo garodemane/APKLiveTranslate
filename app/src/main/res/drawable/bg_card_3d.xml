@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 3D Bottom Shadow Ledge -->
+    <item android:top="4dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/card_shadow_ledge" />
+            <corners android:radius="24dp" />
+        </shape>
+    </item>
+    <!-- Main 3D Card Body -->
+    <item android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="@color/card_surface_top"
+                android:endColor="@color/card_surface_bottom"
+                android:type="linear" />
+            <corners android:radius="24dp" />
+            <stroke
+                android:width="1.2dp"
+                android:color="@color/card_border_subtle" />
+        </shape>
+    </item>
+</layer-list>

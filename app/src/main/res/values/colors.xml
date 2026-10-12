@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#4F46E5</color>
+    <color name="brand_accent">#06B6D4</color>
+    <color name="brand_vivid">#7C3AED</color>
+    <color name="brand_soft">#E0E7FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="icon_bg">#0F1B3D</color>
+
+    <!-- 3D Surface & Background Palette (Light Mode) -->
+    <color name="bg_top">#EEF2FF</color>
+    <color name="bg_center">#F5F7FF</color>
+    <color name="bg_bottom">#E0E7FF</color>
+
+    <color name="card_surface_top">#FFFFFF</color>
+    <color name="card_surface_bottom">#F1F5F9</color>
+    <color name="card_border_highlight">#FFFFFF</color>
+    <color name="card_border_subtle">#CBD5E1</color>
+    <color name="card_shadow_ledge">#CBD5E1</color>
+
+    <color name="orb_card_top">#1E1B4B</color>
+    <color name="orb_card_bottom">#0F172A</color>
+    <color name="orb_card_border">#4338CA</color>
+
+    <color name="mode_selected_top">#EEF2FF</color>
+    <color name="mode_selected_bottom">#E0E7FF</color>
+    <color name="mode_selected_border">#4F46E5</color>
+    <color name="mode_unselected_top">#FFFFFF</color>
+    <color name="mode_unselected_bottom">#F8FAFC</color>
+    <color name="mode_unselected_border">#E2E8F0</color>
+
+    <color name="transcript_in_top">#F8FAFC</color>
+    <color name="transcript_in_bottom">#F1F5F9</color>
+    <color name="transcript_in_border">#CBD5E1</color>
+
+    <color name="transcript_out_top">#EEF2FF</color>
+    <color name="transcript_out_bottom">#E0E7FF</color>
+    <color name="transcript_out_border">#818CF8</color>
+
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#64748B</color>
+
+    <color name="status_ready">#10B981</color>
+    <color name="status_active">#06B6D4</color>
+    <color name="status_error">#EF4444</color>
+
+    <color name="btn_start_top">#6366F1</color>
+    <color name="btn_start_bottom">#4338CA</color>
+    <color name="btn_start_ledge">#312E81</color>
+
+    <color name="btn_stop_top">#F43F5E</color>
+    <color name="btn_stop_bottom">#BE123C</color>
+    <color name="btn_stop_ledge">#881337</color>
+
+    <color name="spot_shadow">#4D4F46E5</color>
+    <color name="ambient_shadow">#260F172A</color>
+</resources>

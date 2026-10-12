@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Live Translate</string>
+    <string name="app_subtitle">AI Real-Time Voice Translator</string>
+    <string name="api_key">Add Gemini API Key</string>
+    <string name="api_keys_title">Gemini API Keys (Auto-Failover)</string>
+    <string name="add_key">Add</string>
+    <string name="no_keys_hint">No API keys added yet. Enter a key above and tap Add.</string>
+    <string name="key_active">Active</string>
+    <string name="key_standby">Standby</string>
+    <string name="key_failed">Quota / Error</string>
+    <string name="key_switched">Switched to API Key #%1$d</string>
+    <string name="target_language">Target language</string>
+    <string name="mode">Audio source</string>
+    <string name="mic">Microphone — speaker</string>
+    <string name="mic_short">Microphone</string>
+    <string name="mic_desc">Capture live voice around you</string>
+    <string name="system">Phone audio — other apps</string>
+    <string name="system_short">System Audio</string>
+    <string name="system_desc">Translate videos, calls &amp; apps</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="stop">Stop</string>
+    <string name="original">Original Speech</string>
+    <string name="translation">Live Translation</string>
+    <string name="orig_vol">Original video volume</string>
+    <string name="tr_vol">Translation volume</string>
+    <string name="audio_mixer">Audio Mixer &amp; Settings</string>
+    <string name="settings">Settings</string>
+    <string name="language">App language</string>
+    <string name="theme">Theme</string>
+    <string name="dark">Dark</string>
+    <string name="light">Light</string>
+    <string name="font">Font size</string>
+    <string name="ready">Ready</string>
+    <string name="running">Running</string>
+    <string name="paused">Paused</string>
+    <string name="stopped">Stopped</string>
+    <string name="orb_hint">Drag orb to rotate • Tap Start to translate</string>
+    <string name="placeholder_in">Waiting for speech input…</string>
+    <string name="placeholder_out">Live translation will appear here…</string>
+    <string name="copied">Copied to clipboard</string>
+    <string name="clear">Clear</string>
+
+    <!-- Status & Errors -->
+    <string name="err_api_key_required">API key is required</string>
+    <string name="err_perm_denied">Microphone or notification permission denied</string>
+    <string name="err_capture_denied">System audio capture not allowed</string>
+    <string name="err_no_projection">Media projection not received</string>
+    <string name="err_audio_record">Could not start audio recording</string>
+    <string name="err_record_read">Audio capture error (%1$d)</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connecting_key">Connecting (Key #%1$d/%2$d)…</string>
+    <string name="status_live">Live translating (%1$s)</string>
+    <string name="status_live_key">Live (%1$s) • Key #%2$d</string>
+    <string name="status_paused">Paused (%1$s)</string>
+    <string name="status_switching_key">Key error → Switching to Key #%1$d…</string>
+    <string name="status_error">Error: %1$s</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Live Translation Control</string>
+    <string name="notif_title_running">Live Translate — Active</string>
+    <string name="notif_title_paused">Live Translate — Paused</string>
+    <string name="notif_text_tap">%1$s • Tap to open app</string>
+</resources>

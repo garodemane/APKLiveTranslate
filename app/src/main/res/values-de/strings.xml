@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Live Translate</string>
+    <string name="app_subtitle">KI-Echtzeit-Sprachübersetzer</string>
+    <string name="api_key">Gemini API-Schlüssel hinzufügen</string>
+    <string name="api_keys_title">Gemini API-Schlüssel (Auto-Failover)</string>
+    <string name="add_key">Plus</string>
+    <string name="no_keys_hint">Noch kein API-Schlüssel. Oben eingeben &amp; hinzufügen.</string>
+    <string name="key_active">Aktiv</string>
+    <string name="key_standby">Bereit</string>
+    <string name="key_failed">Limit / Fehler</string>
+    <string name="key_switched">Gewechselt zu Schlüssel #%1$d</string>
+    <string name="target_language">Zielsprache</string>
+    <string name="mode">Audioquelle</string>
+    <string name="mic">Mikrofon — Sprecher</string>
+    <string name="mic_short">Mikrofon</string>
+    <string name="mic_desc">Live-Stimme der Umgebung</string>
+    <string name="system">Handy-Audio — andere Apps</string>
+    <string name="system_short">System-Audio</string>
+    <string name="system_desc">Videos, Anrufe &amp; Apps übersetzen</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Weiter</string>
+    <string name="stop">Stopp</string>
+    <string name="original">Originaltext</string>
+    <string name="translation">Live-Übersetzung</string>
+    <string name="orig_vol">Original-Video-Lautstärke</string>
+    <string name="tr_vol">Übersetzungs-Lautstärke</string>
+    <string name="audio_mixer">Audio-Mixer &amp; Einstellungen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="language">App-Sprache</string>
+    <string name="theme">Design</string>
+    <string name="dark">Dunkel</string>
+    <string name="light">Hell</string>
+    <string name="font">Schriftgröße</string>
+    <string name="ready">Bereit</string>
+    <string name="running">Läuft</string>
+    <string name="paused">Pausiert</string>
+    <string name="stopped">Gestoppt</string>
+    <string name="orb_hint">Sphäre ziehen zum Drehen • Start tippen</string>
+    <string name="placeholder_in">Warte auf Spracheingabe…</string>
+    <string name="placeholder_out">Live-Übersetzung erscheint hier…</string>
+    <string name="copied">In Zwischenablage kopiert</string>
+    <string name="clear">Löschen</string>
+
+    <!-- Status & Errors -->
+    <string name="err_api_key_required">API-Schlüssel erforderlich</string>
+    <string name="err_perm_denied">Berechtigung verweigert</string>
+    <string name="err_capture_denied">System-Audioaufnahme nicht erlaubt</string>
+    <string name="err_no_projection">Keine Projektion erhalten</string>
+    <string name="err_audio_record">AudioRecord konnte nicht gestartet werden</string>
+    <string name="err_record_read">Aufnahmefehler (%1$d)</string>
+    <string name="status_connecting">Verbinde…</string>
+    <string name="status_connecting_key">Verbinde (Schlüssel #%1$d/%2$d)…</string>
+    <string name="status_live">Live-Übersetzung (%1$s)</string>
+    <string name="status_live_key">Live (%1$s) • Schlüssel #%2$d</string>
+    <string name="status_paused">Pausiert (%1$s)</string>
+    <string name="status_switching_key">Schlüsselfehler → Wechsel zu #%1$d…</string>
+    <string name="status_error">Fehler: %1$s</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Live-Übersetzungssteuerung</string>
+    <string name="notif_title_running">Live Translate — Aktiv</string>
+    <string name="notif_title_paused">Live Translate — Pausiert</string>
+    <string name="notif_text_tap">%1$s • Tippen zum Öffnen</string>
+</resources>
