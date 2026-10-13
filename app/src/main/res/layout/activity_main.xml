@@ -227,137 +227,7 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- 3. 3D Live Transcript Cards (Original & Translation) -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
-                android:orientation="vertical">
-
-                <!-- Translation Card (Highlighted 3D Glass) -->
-                <LinearLayout
-                    android:id="@+id/cardTranscriptOut"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/bg_transcript_out_3d"
-                    android:elevation="10dp"
-                    android:orientation="vertical"
-                    android:padding="16dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <View
-                            android:layout_width="8dp"
-                            android:layout_height="8dp"
-                            android:background="@drawable/bg_icon_badge_3d" />
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="8dp"
-                            android:layout_weight="1"
-                            android:text="@string/translation"
-                            android:textColor="@color/brand"
-                            android:textSize="14sp"
-                            android:textStyle="bold" />
-
-                        <ImageButton
-                            android:id="@+id/btnCopyOut"
-                            android:layout_width="32dp"
-                            android:layout_height="32dp"
-                            android:background="?attr/selectableItemBackgroundBorderless"
-                            android:contentDescription="@string/translation"
-                            android:padding="6dp"
-                            android:scaleType="centerInside"
-                            android:src="@drawable/ic_copy_3d"
-                            app:tint="@color/text_secondary" />
-
-                        <ImageButton
-                            android:id="@+id/btnClearAll"
-                            android:layout_width="32dp"
-                            android:layout_height="32dp"
-                            android:layout_marginStart="4dp"
-                            android:background="?attr/selectableItemBackgroundBorderless"
-                            android:contentDescription="@string/clear"
-                            android:padding="6dp"
-                            android:scaleType="centerInside"
-                            android:src="@drawable/ic_clear_3d"
-                            app:tint="@color/text_secondary" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:id="@+id/tvOut"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:hint="@string/placeholder_out"
-                        android:lineSpacingExtra="4dp"
-                        android:minHeight="64dp"
-                        android:textColor="@color/text_primary"
-                        android:textColorHint="@color/text_muted"
-                        android:textIsSelectable="true"
-                        android:textSize="16sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-                <!-- Original Speech Card -->
-                <LinearLayout
-                    android:id="@+id/cardTranscriptIn"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/bg_transcript_in_3d"
-                    android:elevation="7dp"
-                    android:orientation="vertical"
-                    android:padding="15dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/original"
-                            android:textColor="@color/text_secondary"
-                            android:textSize="13sp"
-                            android:textStyle="bold" />
-
-                        <ImageButton
-                            android:id="@+id/btnCopyIn"
-                            android:layout_width="30dp"
-                            android:layout_height="30dp"
-                            android:background="?attr/selectableItemBackgroundBorderless"
-                            android:contentDescription="@string/original"
-                            android:padding="6dp"
-                            android:scaleType="centerInside"
-                            android:src="@drawable/ic_copy_3d"
-                            app:tint="@color/text_secondary" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:id="@+id/tvIn"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="6dp"
-                        android:hint="@string/placeholder_in"
-                        android:lineSpacingExtra="3dp"
-                        android:minHeight="48dp"
-                        android:textColor="@color/text_primary"
-                        android:textColorHint="@color/text_muted"
-                        android:textIsSelectable="true"
-                        android:textSize="14.5sp" />
-                </LinearLayout>
-            </LinearLayout>
-
-            <!-- 4. 3D Audio Source Selector Section -->
+            <!-- 3. Audio Source Selector Section -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -396,7 +266,7 @@
                 android:baselineAligned="false"
                 android:orientation="horizontal">
 
-                <!-- 3D Mic Mode Card -->
+                <!-- Mic Mode Card -->
                 <LinearLayout
                     android:id="@+id/cardModeMic"
                     android:layout_width="0dp"
@@ -442,7 +312,7 @@
                         android:textSize="11.5sp" />
                 </LinearLayout>
 
-                <!-- 3D System Audio Mode Card -->
+                <!-- System Audio Mode Card -->
                 <LinearLayout
                     android:id="@+id/cardModeSystem"
                     android:layout_width="0dp"
@@ -489,7 +359,7 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- 5. 3D Audio Mixer & Engine Config Card -->
+            <!-- 4. Audio Mixer & Engine Config Card -->
             <LinearLayout
                 android:id="@+id/cardEngineConfig"
                 android:layout_width="match_parent"
@@ -665,6 +535,136 @@
                     android:layout_marginTop="6dp"
                     android:orientation="vertical" />
 
+            </LinearLayout>
+
+            <!-- 5. Live Transcript Cards (Live Translation & Original Speech) at the bottom -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <!-- Translation Card -->
+                <LinearLayout
+                    android:id="@+id/cardTranscriptOut"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_transcript_out_3d"
+                    android:elevation="10dp"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="8dp"
+                            android:layout_height="8dp"
+                            android:background="@drawable/bg_icon_badge_3d" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_weight="1"
+                            android:text="@string/translation"
+                            android:textColor="@color/brand"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/btnCopyOut"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:contentDescription="@string/translation"
+                            android:padding="6dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_copy_3d"
+                            app:tint="@color/text_secondary" />
+
+                        <ImageButton
+                            android:id="@+id/btnClearAll"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginStart="4dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:contentDescription="@string/clear"
+                            android:padding="6dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_clear_3d"
+                            app:tint="@color/text_secondary" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvOut"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:hint="@string/placeholder_out"
+                        android:lineSpacingExtra="4dp"
+                        android:minHeight="64dp"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_muted"
+                        android:textIsSelectable="true"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <!-- Original Speech Card -->
+                <LinearLayout
+                    android:id="@+id/cardTranscriptIn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_transcript_in_3d"
+                    android:elevation="7dp"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/original"
+                            android:textColor="@color/text_secondary"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <ImageButton
+                            android:id="@+id/btnCopyIn"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:contentDescription="@string/original"
+                            android:padding="6dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_copy_3d"
+                            app:tint="@color/text_secondary" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:hint="@string/placeholder_in"
+                        android:lineSpacingExtra="3dp"
+                        android:minHeight="48dp"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_muted"
+                        android:textIsSelectable="true"
+                        android:textSize="14.5sp" />
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>

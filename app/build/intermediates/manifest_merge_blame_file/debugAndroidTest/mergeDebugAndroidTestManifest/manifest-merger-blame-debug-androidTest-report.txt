@@ -3,24 +3,24 @@
 3    package="com.example.livetranslate.test" >
 4
 5    <uses-sdk
-5-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:5:5-74
+5-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:5:5-74
 6        android:minSdkVersion="29"
-6-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:5:15-41
+6-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:5:15-41
 7        android:targetSdkVersion="36" />
-7-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:5:42-71
+7-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:7:5-11:75
+9-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:7:5-11:75
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:7:22-76
+10-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:7:22-76
 11        android:functionalTest="false"
-11-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:10:22-52
+11-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:10:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:9:22-53
+12-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:9:22-53
 13        android:label="Tests for com.example.livetranslate"
-13-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:11:22-73
+13-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:11:22-73
 14        android:targetPackage="com.example.livetranslate" />
-14-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest13081562013827384685.xml:8:22-71
+14-->C:\Users\javee\Downloads\Vibe Coding\LiveTranslate\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest1278025456678652853.xml:8:22-71
 15
 16    <application
 16-->INJECTED

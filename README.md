@@ -1,6 +1,6 @@
 # 🎙️ LiveTranslate — Real-Time AI Audio Translator & Live Dubbing for Android
 
-![Version](https://img.shields.io/badge/Version-1.0-blue)
+![Version](https://img.shields.io/badge/Version-1.1-blue)
 ![Platform](https://img.shields.io/badge/Platform-Android%2010%2B%20(API%2029%2B)-3DDC84?logo=android)
 ![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin)
 ![Gemini API](https://img.shields.io/badge/AI-Gemini%20Live%20API-4285F4?logo=google)
@@ -41,7 +41,7 @@
 - **API Key:** At least one free or paid [Google AI Studio (Gemini) API Key](https://aistudio.google.com/)
 
 ### 🚀 How to Use
-1. Download and install the **LiveTranslate `v1.0` APK** from the [Releases](../../releases) section (or build from source in Android Studio).
+1. Download and install the **LiveTranslate `v1.1` APK** from the [Releases](../../releases) section (or build from source in Android Studio).
 2. Open the app and tap the **⚙️ Settings** icon in the top-right corner.
 3. Under **API Keys**, paste one or more **Gemini API Keys** and tap **Add**.
 4. Select your **Audio Source** (**System Audio** for videos/apps on your device, or **Microphone** for live speech).
@@ -92,7 +92,7 @@
 - **کلید API:** حداقل یک کلید API رایگان یا تجاری از [Google AI Studio](https://aistudio.google.com/)
 
 ### 🚀 راهنمای استفاده
-۱. فایل نصبی (`APK`) نسخه **v1.0** را از بخش [Releases](../../releases) دانلود و نصب کنید.
+۱. فایل نصبی (`APK`) نسخه **v1.1** را از بخش [Releases](../../releases) دانلود و نصب کنید.
 ۲. وارد برنامه شوید و روی آیکون **⚙️ تنظیمات (Settings)** در بالای صفحه بزنید.
 ۳. در بخش **کلیدهای API**، یک یا چند کلید Gemini API وارد کرده و دکمه **افزودن** را بزنید.
 ۴. **منبع صدا** (**صدای سیستم** برای ویدیوهای داخل گوشی یا **میکروفون** برای صدای محیط) و **زبان مقصد** را انتخاب کنید.
