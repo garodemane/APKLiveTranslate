@@ -42,7 +42,7 @@
 
 ### 🚀 How to Use
 1. Download and install the **LiveTranslate `v1.1` APK** from the [Releases](../../releases) section (or build from source in Android Studio).
-2. Open the app and tap the **⚙️ Settings** icon in the top-right corner.
+2. Open app.
 3. Under **API Keys**, paste one or more **Gemini API Keys** and tap **Add**.
 4. Select your **Audio Source** (**System Audio** for videos/apps on your device, or **Microphone** for live speech).
 5. Choose your **Target Language** from the dropdown menu.
@@ -93,7 +93,7 @@
 
 ### 🚀 راهنمای استفاده
 ۱. فایل نصبی (`APK`) نسخه **v1.1** را از بخش [Releases](../../releases) دانلود و نصب کنید.
-۲. وارد برنامه شوید و روی آیکون **⚙️ تنظیمات (Settings)** در بالای صفحه بزنید.
+۲. وارد برنامه شوید.
 ۳. در بخش **کلیدهای API**، یک یا چند کلید Gemini API وارد کرده و دکمه **افزودن** را بزنید.
 ۴. **منبع صدا** (**صدای سیستم** برای ویدیوهای داخل گوشی یا **میکروفون** برای صدای محیط) و **زبان مقصد** را انتخاب کنید.
 ۵. روی دکمه **▶ شروع (Start)** بزنید، دسترسی لازم را تایید کنید و با اسلایدرهای صدا، میزان صدای ویدیوی اصلی و دوبله را به دلخواه تنظیم نمایید!
